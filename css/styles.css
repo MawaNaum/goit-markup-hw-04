@@ -38,11 +38,12 @@ a {
     padding-left: 15px;
     padding-right: 15px;
 }
-.header {
-    border-bottom: 1px solid #ECECEC;
-}
 .list {
     list-style-type: none;
+}
+/* Хедер */
+.header {
+    border-bottom: 1px solid #ECECEC;
 }
 .navigation {
     margin-right: auto;
@@ -139,6 +140,8 @@ a {
     fill: var(--accent-color);
 }
 
+/* Головна секція - герой */
+
 .hero {
     background-color: var(--second-background);
     
@@ -190,6 +193,8 @@ a {
 .button-hero:focus {
     background: #188CE8;
 }
+
+
 .visually-hidden {
     position: absolute;
     white-space: nowrap;
@@ -202,6 +207,8 @@ a {
     clip-path: inset(50%);
     margin: -1px;
 }
+
+/* Особливості */
 .feature {
     background-color: var(--third-color);
    
@@ -243,6 +250,7 @@ a {
     height: 70px;
 }
 
+/* Чим займаємось */
 .business {
     background-color: var(--third-color);
     padding-top: 0;
@@ -260,7 +268,7 @@ a {
     flex-wrap: wrap;
     gap: 30px;
 }
-
+/* Наша команда */
 .team {
     background-color: var(--background-color);
 }
@@ -294,6 +302,7 @@ a {
     border-radius: 0px 0px 4px 4px;
 }
 
+/* Соціальні мережі */
 .social-links-list {
     display: flex;
     column-gap: 10px;
@@ -331,6 +340,12 @@ a {
     fill: var(--third-color);
 }
 
+/* Клієнти */
+.clients-list {
+    display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+}
 .client-link {
     display: flex;
     width: 170px;
@@ -358,6 +373,7 @@ a {
     fill: var(--accent-color);
 }
 
+/* Футер */
 .footer {
     background-color: var(--second-background);
     color: var(--third-color);
@@ -429,11 +445,12 @@ a {
     height: 20px;
     align-items: center;
 }
-
+/* Портфоліо */
 .portfolio {
     background: var(--third-color);
 }
 
+/* Фільтр */
 .filter-list {
     display: flex;
     flex-wrap: wrap;
@@ -480,6 +497,7 @@ a {
     color: var(--third-color);
 }
 
+/* Проекти */
 .project-list {
     display: flex;
     flex-wrap: wrap;
@@ -521,9 +539,4 @@ a {
     font-size: 16px;
     line-height: 1.88;
     color: var(--second-color);
-}
-.clients-list {
-    display: flex;
-        flex-wrap: wrap;
-        gap: 30px;
 }
